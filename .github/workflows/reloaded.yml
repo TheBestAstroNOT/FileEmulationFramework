@@ -83,15 +83,12 @@ jobs:
         fetch-depth: 0
         submodules: 'recursive'
         
-    - name: Setup .NET Core SDK (5.0)
+    # Removed the .NET Core SDK 5.0 setup
+    # Removed the .NET Core SDK 7.0 setup
+    - name: Setup .NET Core SDK (8.0)
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 5.0.x
-        
-    - name: Setup .NET Core SDK (7.0)
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 7.0.x
+        dotnet-version: 8.0.x
         
     - name: Setup Node.js
       uses: actions/setup-node@v2

@@ -4,4 +4,3 @@
 [submodule "Submodules/Atlus-Script-Tools"]
 	path = Submodules/Atlus-Script-Tools
 	url = https://github.com/tge-was-taken/Atlus-Script-Tools
-	branch = bf-emulator
